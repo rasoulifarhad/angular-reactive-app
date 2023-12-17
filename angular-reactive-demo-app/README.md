@@ -61,3 +61,9 @@ vscode :
 - Ctrl+Shift+P will bring you directly to the editor commands
 - Ctrl+Shift+O will let you navigate to a specific symbol in a file
 - Ctrl+G will let you navigate to a specific line in a file
+
+
+Run server
+
+node bin/www 
+
