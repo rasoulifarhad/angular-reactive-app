@@ -47,6 +47,12 @@ See https://blog.angular-university.io/angular-http/
 See https://github.com/angular-university/reactive-patterns-course/tree/master
 See https://blog.angular-university.io/angular-reactive-templates/
 
+
+See https://blog.danieleghidoli.it/2016/10/22/http-rxjs-observables-angular/
+See https://blog.angular-university.io/rxjs-switchmap-operator/
+See https://perko.dev/blog/post/2023-01-30-merging-two-observables-of-different-types
+See https://angularindepth.com/posts/1114/learn-to-combine-rxjs-sequences-with-super-intuitive-interactive-diagrams
+See https://www.javaguides.net/2019/06/navigate-to-another-page-with-button-in-angular.html
 vscode :
 
 
