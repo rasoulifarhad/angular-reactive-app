@@ -23,9 +23,10 @@ import { CreateLessonComponent } from './create-lesson/create-lesson.component';
 import { EventBusExperimentsComponent } from './event-bus-experiments/event-bus-experiments.component';
 import { LessonsCounterComponent } from './lessons-counter/lessons-counter.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { EventBusLessonsListComponent } from './event-bus-lessons-list/event-bus-lessons-list.component';
 
 @NgModule({
-  declarations: [AppComponent, TopMenuComponent, HomeComponent, LoginComponent, AllLessonsComponent, LoadingComponent, MessagesComponent, CoursesListComponent, LessonsListComponent, CourseComponent, LessonDetailComponent, CourseDetailComponent, BrowserEventExperimentsComponent, CourseDetailHeaderComponent, CreateLessonComponent, EventBusExperimentsComponent, LessonsCounterComponent, NewsletterComponent],
+  declarations: [AppComponent, TopMenuComponent, HomeComponent, LoginComponent, AllLessonsComponent, LoadingComponent, MessagesComponent, CoursesListComponent, LessonsListComponent, CourseComponent, LessonDetailComponent, CourseDetailComponent, BrowserEventExperimentsComponent, CourseDetailHeaderComponent, CreateLessonComponent, EventBusExperimentsComponent, LessonsCounterComponent, NewsletterComponent, EventBusLessonsListComponent],
   providers: [],
   bootstrap: [AppComponent],
   imports: [

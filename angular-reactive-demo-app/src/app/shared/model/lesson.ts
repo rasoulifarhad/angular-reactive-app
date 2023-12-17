@@ -3,6 +3,7 @@ export interface Lesson {
   description: string;
   seqNo: number;
   duration: string;
+  completed: boolean,
   url?: string;
   tags?: string;
   pro?: boolean;
