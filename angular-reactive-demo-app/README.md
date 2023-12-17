@@ -26,6 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+See https://github.com/angular-university/reactive-patterns-course
 See https://github.com/angular-university/angular-material-course/tree/master
 See https://www.freakyjolly.com/angular-material-card-example-using-mat-card-component/
 See https://github.com/angular-university/angular-course
@@ -53,6 +54,11 @@ See https://blog.angular-university.io/rxjs-switchmap-operator/
 See https://perko.dev/blog/post/2023-01-30-merging-two-observables-of-different-types
 See https://angularindepth.com/posts/1114/learn-to-combine-rxjs-sequences-with-super-intuitive-interactive-diagrams
 See https://www.javaguides.net/2019/06/navigate-to-another-page-with-button-in-angular.html
+See https://github.com/angular-university/reactive-angular-course/tree/master
+See https://github.com/bezkoder/angular-16-crud-example/tree/master
+See https://github.com/bezkoder/spring-boot-angular-16-crud-example
+See https://github.com/jdegand/NgRx-example
+
 vscode :
 
 

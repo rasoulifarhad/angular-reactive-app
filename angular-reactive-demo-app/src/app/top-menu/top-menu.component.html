@@ -8,6 +8,10 @@
       <a routerLink="all-lessons"
          routerLinkActive="menu-active">All Lessons</a>
     </li>
+    <li>
+      <a routerLink="event-bus"
+         routerLinkActive="menu-active">Event Bus</a>
+    </li>
     <li *ngIf="!(isLoggedIn$ | async)">
       <a routerLink="login"
          routerLinkActive="menu-active">Login</a>

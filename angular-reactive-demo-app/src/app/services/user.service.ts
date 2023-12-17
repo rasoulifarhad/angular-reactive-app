@@ -5,18 +5,18 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Router } from '@angular/router';
 
 export const UNKNOWN_USER: User = {
-  firstNamme: 'Unknown'
+  firstName: 'Unknown',
+  lastName: ''
 }
 
 @Injectable({
   providedIn: 'root',
 })
 export class UserService {
+
   private currentUserSubject = new BehaviorSubject<User>(UNKNOWN_USER);
 
-  currentUser$: Observable<User> = this.currentUserSubject
-    .asObservable()
-    .pipe(distinctUntilChanged());
+  public currentUser$: Observable<User> = this.currentUserSubject.asObservable();
 
   public isAuthenticated = this.currentUser$.pipe(map((user) => !!user));
 

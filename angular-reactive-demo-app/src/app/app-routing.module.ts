@@ -5,40 +5,42 @@ import { LoginComponent } from './login/login.component';
 import { AllLessonsComponent } from './all-lessons/all-lessons.component';
 import { CourseDetailComponent } from './course-detail/course-detail.component';
 import { courseDetailResolver } from './course-detail/course-detail.resolver';
+import { EventBusExperimentsComponent } from './event-bus-experiments/event-bus-experiments.component';
 
 const routes: Routes = [
   {
     path: 'home',
-    component: HomeComponent
+    component: HomeComponent,
+  },
+  {
+    path: 'event-bus',
+    component: EventBusExperimentsComponent,
   },
   {
     path: 'login',
-    component: LoginComponent
-
+    component: LoginComponent,
   },
   {
     path: 'all-lessons',
-    component: AllLessonsComponent
+    component: AllLessonsComponent,
   },
   {
     path: 'courses/:id',
     component: CourseDetailComponent,
     resolve: {
-      detail: courseDetailResolver
-    }
+      detail: courseDetailResolver,
+    },
   },
   {
     path: '',
     redirectTo: '/home',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: '**',
     redirectTo: '/home',
-    pathMatch: 'full'
-  }
-
-
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
